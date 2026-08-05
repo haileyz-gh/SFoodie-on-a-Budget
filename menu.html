@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Restaurant Menu</title>
+
+    <style>
+        .page2{
+            display:none;
+        }
+
+        .card img{
+            height:200px;
+            object-fit:cover;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <div class="container">
+
+        <!-- Mobile Menu Button -->
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <!-- Nav Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="restaurants.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="menu.html">
+                        Explore Menu
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<div class="container mt-4">
+
+    <div class="row">
+
+        <!-- CARD 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+
+                <img src="images/restaurant1.jpg" class="card-img-top">
+
+                <div class="card-body">
+
+                    <div id="card1page1">
+                        <h4>Menu Item</h4>
+                        <h5>Price</h5>
+                        <p>Description</p>
+
+                        <button class="btn btn-primary"
+                        onclick="nextPage('card1')">
+                            Next →
+                        </button>
+                    </div>
+
+                    <div id="card1page2" class="page2">
+                        <h4>Menu Item</h4>
+                        <h5>Price</h5>
+                        <p>Description</p>
+
+                        <button class="btn btn-secondary"
+                        onclick="previousPage('card1')">
+                            ← Back
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+
+                <img src="images/restaurant2.jpg" class="card-img-top">
+
+                <div class="card-body">
+
+                    <div id="card2page1">
+                        <h4>Menu Item</h4>
+                        <h5>Price</h5>
+                        <p>Description</p>
+
+                        <button class="btn btn-primary"
+                        onclick="nextPage('card2')">
+                            Next →
+                        </button>
+                    </div>
+
+                    <div id="card2page2" class="page2">
+                        <h4>Menu Item</h4>
+                        <h5>Price</h5>
+                        <p>Description</p>
+
+                        <button class="btn btn-secondary"
+                        onclick="previousPage('card2')">
+                            ← Back
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+
+                <img src="images/restaurant3.jpg" class="card-img-top">
+
+                <div class="card-body">
+
+                    <div id="card3page1">
+                        <h4>Menu Item</h4>
+                        <h5>Price</h5>
+                        <p>Description</p>
+
+                        <button class="btn btn-primary"
+                        onclick="nextPage('card3')">
+                            Next →
+                        </button>
+                    </div>
+
+                    <div id="card3page2" class="page2">
+                        <h4>Menu Item</h4>
+                        <h5>Price</h5>
+                        <p>Description</p>
+
+                        <button class="btn btn-secondary"
+                        onclick="previousPage('card3')">
+                            ← Back
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+
+                <img src="images/restaurant4.jpg" class="card-img-top">
+
+                <div class="card-body">
+
+                    <div id="card4page1">
+                        <h4>Menu Item</h4>
+                        <h5>Price</h5>
+                        <p>Description</p>
+
+                        <button class="btn btn-primary"
+                        onclick="nextPage('card4')">
+                            Next →
+                        </button>
+                    </div>
+
+                    <div id="card4page2" class="page2">
+                        <h4>Menu Item</h4>
+                        <h5>Price</h5>
+                        <p>Description</p>
+
+                        <button class="btn btn-secondary"
+                        onclick="previousPage('card4')">
+                            ← Back
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+
+                <img src="images/restaurant5.jpg" class="card-img-top">
+
+                <div class="card-body">
+
+                    <div id="card5page1">
+                        <h4>Menu Item</h4>
+                        <h5>Price</h5>
+                        <p>Description</p>
+
+                        <button class="btn btn-primary"
+                        onclick="nextPage('card5')">
+                            Next →
+                        </button>
+                    </div>
+
+                    <div id="card5page2" class="page2">
+                        <h4>Menu Item</h4>
+                        <h5>Price</h5>
+                        <p>Description</p>
+
+                        <button class="btn btn-secondary"
+                        onclick="previousPage('card5')">
+                            ← Back
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+
+                <img src="images/restaurant6.jpg" class="card-img-top">
+
+                <div class="card-body">
+
+                    <div id="card6page1">
+                        <h4>Menu Item</h4>
+                        <h5>Price</h5>
+                        <p>Description</p>
+
+                        <button class="btn btn-primary"
+                        onclick="nextPage('card6')">
+                            Next →
+                        </button>
+                    </div>
+
+                    <div id="card6page2" class="page2">
+                        <h4>Menu Item</h4>
+                        <h5>Price</h5>
+                        <p>Description</p>
+
+                        <button class="btn btn-secondary"
+                        onclick="previousPage('card6')">
+                            ← Back
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+function nextPage(card){
+
+    document.getElementById(card + "page1").style.display = "none";
+    document.getElementById(card + "page2").style.display = "block";
+
+}
+
+function previousPage(card){
+
+    document.getElementById(card + "page2").style.display = "none";
+    document.getElementById(card + "page1").style.display = "block";
+
+}
+
+</script>
+
+</body>
+</html>

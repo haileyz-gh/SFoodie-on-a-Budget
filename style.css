@@ -1,0 +1,153 @@
+body {
+
+    background-color: #fbf9cf; 
+
+    font-family: 'Poppins', sans-serif;
+
+    color: #000000;
+
+}
+
+.navbar {
+
+    background-color: #BFE7F9 !important; 
+}
+
+
+.navbar-brand img {
+
+    border-radius: 12px;
+
+}
+
+
+.nav-link {
+
+    color: #010101 !important;
+
+    font-weight: 500;
+
+    margin-left: 15px;
+
+}
+
+
+.nav-link:hover {
+
+    color: #FFFFFF !important;
+
+}
+
+.card {
+
+    background-color: #FFFDF5; 
+
+    border: 5px solid #BFE7F9; 
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    transition: transform .6s ease;
+
+}
+
+
+.card:hover {
+
+    transform: translateY(-8px);
+
+}
+
+
+.card img {
+
+    height: 250px;
+
+    object-fit: cover;
+
+}
+
+
+/* Card Text */
+
+.card-title {
+
+    color: #000000;
+
+    font-weight: 600;
+
+    font-size: 22px;
+
+}
+
+
+.card-text {
+
+    color: #030303;
+
+    line-height: 1.6;
+
+}
+
+.btn-primary {
+
+    background-color: #BFE7F9; 
+
+    border: none;
+
+    color: #fbf9cf;
+
+    font-weight: 600;
+
+    border-radius: 20px;
+
+    padding: 8px 20px;
+
+}
+
+
+.btn-primary:hover {
+
+    background-color: #91CFFF;
+
+    color: white;
+
+}
+
+
+/* Back Button */
+
+.btn-secondary {
+
+   background-color: #BFE7F9; /* baby blue */
+
+    border: none;
+
+    color: #fbf9cf;
+
+    font-weight: 600;
+
+    border-radius: 20px;
+
+    padding: 8px 20px;
+
+}
+
+
+.btn-secondary:hover {
+
+    background-color: #91CFFF;
+
+    color: white;
+
+
+}
+
+.container {
+
+    padding-top: 15px;
+
+    padding-bottom: 15px;
+
+}
